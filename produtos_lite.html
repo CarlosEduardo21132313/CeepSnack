@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">  
+    <title>CeepLanches</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16"  href="logi/img/favicons/favicon-16x16.png">
+    <script src="https://kit.fontawesome.com/3478cf0681.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.ico">
+
+  </head>
+<body>
+    <header class="header1">
+        <a href="index.html"><img src="img/3.png"></a>
+        <nav id="myTopnav" class="topnav">
+            <a href="sobre.html">Sobre</a>
+            <a href="produtos.php">Produtos</a>
+            <a href="produtos_lite.php">Produtos lite</a>
+            <a href="/registros/logi/login.php">Encerrar Sessão</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i> </a>
+        </nav>
+    </header>
+    
+    <section class="main produtos">
+        <div class="produtovce">
+            <div class="produtosingle">
+                <img src="img/coxinha.jpg">
+                <div class="text2">
+                    <h2><a href="#">Coxinha</a></h2>
+                    <p>Feita a base de batata, com recheio de frango, é frita no óleo e tem cerca de 50g por unidade.</p>
+                </div>
+                <div class="botao">
+                    <button>Comprar</button>
+                </div>
+            </div>
+            <div class="produtosingle">
+                <img src="img/brigadeiro.jpg">
+                <div class="text2">
+                  <h2><a href="#">Coxinha</a></h2>
+                  <p>Feita a base de batata, com recheio de frango, é frita no óleo e tem cerca de 50g por unidade.</p>
+                </div>
+                <div class="botao">
+                  <button>Comprar</button>
+              </div>
+            </div>
+            <div class="produtosingle">
+                <img src="img/paçoca.jpg">
+                <div class="text2">
+                  <h2><a href="#">Coxinha</a></h2>
+                  <p>Feita a base de batata, com recheio de frango, é frita no óleo e tem cerca de 50g por unidade.</p>
+                </div>
+                <div class="botao">
+                  <button>Comprar</button>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer1">
+        <p>CeepLanches 2023©</p>
+    </footer>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script><!--menu hamburguer-->
+
+</body>
+</html>
